@@ -12,7 +12,7 @@ class splashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({startActivity(Intent(this,MainActivity::class.java))
-            finish()},1000L)
+            finish()},8000L)
         supportActionBar?.title=""
     }
 }
